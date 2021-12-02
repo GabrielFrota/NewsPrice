@@ -131,7 +131,7 @@ class NewsPrice {
   
   private void printArrs(double[] arr1, double[] arr2) {
     for (int i = 0; i < arr1.length; i++) {
-      System.out.println(arr1[i] + "\t" + arr2[i]);
+      System.out.println(arr1[i] + "\t" + arr2[i] + "\t\t" + sentiments.get(i).date);
     }
   }
   
